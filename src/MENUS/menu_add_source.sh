@@ -37,7 +37,7 @@ elif grep -q "fulcrum-start" $HOME/.parmanode/installed.conf ; then
 fulcrum_p="#                                      Fulcrum                                         #"
 else
    #not installed
-fulcrum_n="#$cyan                            (f)$orange           Fulcrum (an Electrum Server)                #"
+fulcrum_n="#$cyan                            (f)$orange           Fulcrum (um servidor Electrum)                #"
 fi
 #FULCRUMDKR
 unset fulcrumdkr_i fulcrumdkr_p fulcrumdkr_n
@@ -48,8 +48,8 @@ elif grep -q "fulcrumdkr-start" $HOME/.parmanode/installed.conf ; then
    #partially installed
 fulcrumdkr_p="#                                      Fulcrum (Docker)                                #"
 else
-   #not installed
-fulcrumdkr_n="#$cyan                            (fd)$orange          Fulcrum (an Electrum Server in Docker)      #"
+   #not installedum servidor Electrum
+fulcrumdkr_n="#$cyan                            (fd)$orange          Fulcrum (um servidor Electrum em Docker)      #"
 fi
 
 #BTCPAY
@@ -75,7 +75,7 @@ elif grep -q "sparrow-start" $HOME/.parmanode/installed.conf ; then
 sparrow_p="#                                      Sparrow Wallet                                  #"
 else
    #not installed
-sparrow_n="#$cyan                            (s)$orange           Sparrow Wallet                              #"
+sparrow_n="#$cyan                            (s)$orange           Carteira Sparrow                              #"
 fi
 
 #Electrs
@@ -126,7 +126,7 @@ elif grep -q "rtl-start" $HOME/.parmanode/installed.conf ; then
 rtl_p="#                                      RTL Wallet                                      #"
 else
    #not installed
-rtl_n="#$cyan                            (r) $orange          RTL Wallet                                  #"
+rtl_n="#$cyan                            (r) $orange          Carteira RTL                                  #"
 fi
 
 #Electrum
@@ -166,7 +166,7 @@ elif grep -q "specter-start" $HOME/.parmanode/installed.conf ; then
 specter_p="#                                      Specter Wallet                                  #"
 else
    #not installed
-specter_n="#$cyan                            (specter) $orange    Specter Wallet                              #"
+specter_n="#$cyan                            (specter) $orange    Carteira Specter                              #"
 fi
 
 #Tor Server
@@ -179,7 +179,7 @@ elif grep -q "tor-server-start" $HOME/.parmanode/installed.conf ; then
 torserver_p="#                                      Tor Web Server                                  #"
 else
    #not installed
-torserver_n="#$cyan                            (tws)      $orange   Tor Web Server (Darknet Server)             #"
+torserver_n="#$cyan                            (tws)      $orange   Servidor Web Tor (Servidor Darknet)             #"
 fi
 
 #BTC RPC Explorer (not Docker)
@@ -192,20 +192,20 @@ elif grep -q "btcrpcexplore-start" $HOME/.parmanode/installed.conf ; then
 btcrpcexplorer_p="#                                      BTC RPC Explorer                                #"
 else
    #not installed
-btcrpcexplorer_n="#$cyan                            (bre)       $orange  BTC RPC Explorer                            #"
+btcrpcexplorer_n="#$cyan                            (bre)       $orange  Explorador BTC RPC                            #"
 fi
 
 #BTC RPC Explorer (Docker)
 unset bre_i bre_p bre_n 
 if grep -q "bre-end" $HOME/.parmanode/installed.conf ; then 
   #installed
-bre_i="#                                      BTC RPC Explorer (Docker)                       #"
+bre_i="#                                      Explorador BTC RPC (Docker)                       #"
 elif grep -q "bre-start" $HOME/.parmanode/installed.conf ; then 
    #partially installed
-bre_p="#                                      BTC RPC Explorer (Docker)                       #"
+bre_p="#                                      Explorador BTC RPC (Docker)                       #"
 else
    #not installed
-bre_n="#$cyan                            (bre)        $orange BTC RPC Explorer (Docker)                   #"
+bre_n="#$cyan                            (bre)        $orange Explorador BTC RPC (Docker)                   #"
 fi
 
 #LNbits
@@ -232,7 +232,7 @@ elif grep -q "trezor-start" $HOME/.parmanode/installed.conf ; then
 trezor_p="#                                      Trezor Suite                                    #"
 else
    #not installed
-trezor_n="#$cyan                            (trz)     $orange    Trezor Suite                                #"
+trezor_n="#$cyan                            (trz)     $orange    Suite Trezor                                #"
 fi
 
 #Bitbox
@@ -440,7 +440,7 @@ elif grep -q "torssh-start" $HOME/.parmanode/installed.conf ; then
 torssh_p="#                                      Tor SSH Server                                  #"
 else
    #not installed
-torssh_n="#$cyan                            (tssh)    $orange    Tor SSH Server                              #"
+torssh_n="#$cyan                            (tssh)    $orange    Servidor Tor SSH                              #"
 fi
 
 #public_pool
@@ -453,7 +453,7 @@ elif grep -q "public_pool-start" $HOME/.parmanode/installed.conf ; then
 public_pool_p="#                                      Public Pool                                     #"
 else
    #not installed
-public_pool_n="#$cyan                            (pool)      $orange  Public Pool                                 #"
+public_pool_n="#$cyan                            (pool)      $orange  Pool pública                                 #"
 fi
 
 #Electrumx
@@ -492,7 +492,7 @@ elif grep -q "website-start" $HOME/.parmanode/installed.conf ; then
 website_p="#                                      WordPress Website (ParmaWeb)                    #"
 else
    #not installed
-website_n="#$cyan                            (ws)        $orange  Wordpress Website (ParmaWeb)                #"
+website_n="#$cyan                            (ws)        $orange  Website Wordpress (ParmaWeb)                #"
 fi
 
 #lnddocker
