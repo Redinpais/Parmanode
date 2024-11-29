@@ -4,12 +4,12 @@ get_onion_address_variable litterminal
 
 set_terminal ; echo -e "
 ########################################################################################$cyan
-                               Lightning Terminal Menu     $orange 
+                               Menu do Terminal Lightning     $orange 
 ########################################################################################
 
 
 
-    The Lightning Terminal can be accessed in your browser at:
+    O Lightning Terminal pode ser acedido no seu browser em:
 
 
                            https://localhost:${green}8443$orange
