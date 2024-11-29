@@ -6,18 +6,18 @@ set_terminal
 echo -e "
 ########################################################################################
 #                                                                                      #
-#    P A R M A N O D E --> Main Menu --> Install Menu  -->$cyan Extras        $orange              #
+#    P A R M A N O D E --> Menu principal --> Instalar Menu  -->$cyan Extras        $orange              #
 #                                                                                      #
 ########################################################################################
 #                                                                                      #
 #                                                                                      #
-#$cyan              (rr)$orange      RAID - join drives together                                   #
+#$cyan              (rr)$orange      RAID - juntar unidades                                   #
 #                                                                                      #
-#$cyan              (h)$orange       HTOP - check system resources                                 #
+#$cyan              (h)$orange       HTOP - verificar os recursos do sistema                                 #
 #                                                                                      #
-#$cyan              (u)$orange       Add UDEV rules for HWWs (only needed for Linux)               #
+#$cyan              (u)$orange       Adicionar regras UDEV para HWWs (apenas necessário para Linux)               #
 #                                                                                      #
-#$cyan              (fb)$orange      Parman's recommended free books (pdfs)                        #
+#$cyan              (fb)$orange      Livros gratuitos recomendados por Parman (pdfs)                        #
 #                                                                                      #
 #                                                                                      #
 ########################################################################################
